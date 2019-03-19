@@ -1,0 +1,38 @@
+
+from random import randint
+random_number = randint(1, 10)
+
+t = 3
+c = int(input("Your guess: "))
+while t > 0:
+  if c == random_number:
+    print ("Ok")
+    break
+    t -= 1
+  else:
+    print ('You lose!')
+    break
+print (random_number)
+  
+  
+I CAN USE FOR AS WELL
+hobbies = []
+
+# Add your code below!
+hobby = int(raw_input("Your guess: "))
+for i in range(3):
+  print i
+  hobby = hobbies.append(hobby)
+  print hobbies
+  
+  
+or IN A PHRASE
+phrase = "A bird in the hand..."
+
+# Add your for loop
+for i in phrase:
+  if i == "A" or i == "a":
+    print "X",
+  else:
+    print i,
+    
